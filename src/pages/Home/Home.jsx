@@ -93,7 +93,7 @@ const Home = () => {
 
       if (response.data && response.data.notes) {
         setIsSearch(true);
-        setAllNotes(response.data.notse);
+        setAllNotes(response.data.notes);
       }
     } catch (error) {
       console.log("An unexpected error occurred. Please try again.");
